@@ -3,13 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32602.215
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reflection", "Reflection\Reflection.csproj", "{C8AB4E0E-477C-462F-947A-8BE11DFC7FAF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reflection", "Reflection\Reflection.csproj", "{C8AB4E0E-477C-462F-947A-8BE11DFC7FAF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Types", "Types\Types.csproj", "{FAC6C262-F2EE-4975-8D1C-56B98A86A629}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Types", "Types\Types.csproj", "{FAC6C262-F2EE-4975-8D1C-56B98A86A629}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetInterfaces", "GetInterfaces\GetInterfaces.csproj", "{1E1974F3-8260-4747-B7C6-E619B7F46446}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GetInterfaces", "GetInterfaces\GetInterfaces.csproj", "{1E1974F3-8260-4747-B7C6-E619B7F46446}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateInstance", "CreateInstance\CreateInstance.csproj", "{B1E542BC-A1B1-4DAD-85D3-1E037BF402C6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreateInstance", "CreateInstance\CreateInstance.csproj", "{B1E542BC-A1B1-4DAD-85D3-1E037BF402C6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReflectionAndAttributes", "ReflectionAndAttributes\ReflectionAndAttributes.csproj", "{A3820171-538B-4CB2-ACAB-9D7A04B1684B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConstructorReflection", "ConstructorReflection\ConstructorReflection.csproj", "{08B1BC3C-5302-41A7-BA56-437515D1DF42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodsReflection", "MethodsReflection\MethodsReflection.csproj", "{A652149D-1BD6-4C3A-81E7-BB30ABECB3C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Attributes", "Attributes\Attributes.csproj", "{ECF44E1B-BCC0-4ACE-9747-41B54BE5B7D3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +41,22 @@ Global
 		{B1E542BC-A1B1-4DAD-85D3-1E037BF402C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B1E542BC-A1B1-4DAD-85D3-1E037BF402C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B1E542BC-A1B1-4DAD-85D3-1E037BF402C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3820171-538B-4CB2-ACAB-9D7A04B1684B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3820171-538B-4CB2-ACAB-9D7A04B1684B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3820171-538B-4CB2-ACAB-9D7A04B1684B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3820171-538B-4CB2-ACAB-9D7A04B1684B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08B1BC3C-5302-41A7-BA56-437515D1DF42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08B1BC3C-5302-41A7-BA56-437515D1DF42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08B1BC3C-5302-41A7-BA56-437515D1DF42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08B1BC3C-5302-41A7-BA56-437515D1DF42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A652149D-1BD6-4C3A-81E7-BB30ABECB3C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A652149D-1BD6-4C3A-81E7-BB30ABECB3C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A652149D-1BD6-4C3A-81E7-BB30ABECB3C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A652149D-1BD6-4C3A-81E7-BB30ABECB3C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECF44E1B-BCC0-4ACE-9747-41B54BE5B7D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECF44E1B-BCC0-4ACE-9747-41B54BE5B7D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECF44E1B-BCC0-4ACE-9747-41B54BE5B7D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECF44E1B-BCC0-4ACE-9747-41B54BE5B7D3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
