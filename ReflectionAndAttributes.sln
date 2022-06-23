@@ -13,11 +13,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreateInstance", "CreateIns
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReflectionAndAttributes", "ReflectionAndAttributes\ReflectionAndAttributes.csproj", "{A3820171-538B-4CB2-ACAB-9D7A04B1684B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConstructorReflection", "ConstructorReflection\ConstructorReflection.csproj", "{08B1BC3C-5302-41A7-BA56-437515D1DF42}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConstructorReflection", "ConstructorReflection\ConstructorReflection.csproj", "{08B1BC3C-5302-41A7-BA56-437515D1DF42}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodsReflection", "MethodsReflection\MethodsReflection.csproj", "{A652149D-1BD6-4C3A-81E7-BB30ABECB3C6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MethodsReflection", "MethodsReflection\MethodsReflection.csproj", "{A652149D-1BD6-4C3A-81E7-BB30ABECB3C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Attributes", "Attributes\Attributes.csproj", "{ECF44E1B-BCC0-4ACE-9747-41B54BE5B7D3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Attributes", "Attributes\Attributes.csproj", "{ECF44E1B-BCC0-4ACE-9747-41B54BE5B7D3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuthorProblem", "AuthorProblem\AuthorProblem.csproj", "{5155E241-1B18-48EB-AA66-6761F9BC628C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JudgeReflection", "JudgeReflection\JudgeReflection.csproj", "{92AE0E36-2D91-4D60-B901-1634372304A5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarTask", "CarTask\CarTask.csproj", "{C89F2D45-6AB3-4F55-98F2-F511B5A02B80}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommandPattern", "CommandPattern\CommandPattern.csproj", "{3424D4FB-38B3-4244-B170-8DA810C3C755}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ValidationAttributes", "ValidationAttributes\ValidationAttributes.csproj", "{09FFCA92-E055-45BE-AB2C-B9ED66874610}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +67,26 @@ Global
 		{ECF44E1B-BCC0-4ACE-9747-41B54BE5B7D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ECF44E1B-BCC0-4ACE-9747-41B54BE5B7D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ECF44E1B-BCC0-4ACE-9747-41B54BE5B7D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5155E241-1B18-48EB-AA66-6761F9BC628C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5155E241-1B18-48EB-AA66-6761F9BC628C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5155E241-1B18-48EB-AA66-6761F9BC628C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5155E241-1B18-48EB-AA66-6761F9BC628C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92AE0E36-2D91-4D60-B901-1634372304A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92AE0E36-2D91-4D60-B901-1634372304A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92AE0E36-2D91-4D60-B901-1634372304A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92AE0E36-2D91-4D60-B901-1634372304A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C89F2D45-6AB3-4F55-98F2-F511B5A02B80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C89F2D45-6AB3-4F55-98F2-F511B5A02B80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C89F2D45-6AB3-4F55-98F2-F511B5A02B80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C89F2D45-6AB3-4F55-98F2-F511B5A02B80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3424D4FB-38B3-4244-B170-8DA810C3C755}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3424D4FB-38B3-4244-B170-8DA810C3C755}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3424D4FB-38B3-4244-B170-8DA810C3C755}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3424D4FB-38B3-4244-B170-8DA810C3C755}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09FFCA92-E055-45BE-AB2C-B9ED66874610}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09FFCA92-E055-45BE-AB2C-B9ED66874610}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09FFCA92-E055-45BE-AB2C-B9ED66874610}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09FFCA92-E055-45BE-AB2C-B9ED66874610}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

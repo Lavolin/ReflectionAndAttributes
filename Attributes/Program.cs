@@ -3,7 +3,7 @@ using System.Reflection;
 
 namespace Attributes
 {
-    class Program               //1.59
+    class Program               
     {
         static void Main(string[] args)
         {
