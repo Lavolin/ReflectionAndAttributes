@@ -18,11 +18,19 @@ namespace CommandPattern.Core
         {
             while (true)
             {
-                string args = Console.ReadLine(); // HelloCommand Stoyan
+                try
+                {
+                    string args = Console.ReadLine(); // HelloCommand Stoyan
 
-                string result = this.commandInterpreter.Read(args);
+                    string result = this.commandInterpreter.Read(args);
 
-                Console.WriteLine(result);
+                    Console.WriteLine(result);
+                }
+                catch (Exception ex)
+                {
+
+                    Console.WriteLine(ex.Message);
+                }
             }
         }
     }

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Linq;
+using System.Reflection;
 using CommandPattern.Core.Commands;
 using CommandPattern.Core.Contracts;
 
@@ -15,21 +16,47 @@ namespace CommandPattern.Core
             string commandName = input[0];
             string[] value = input.Skip(1).ToArray();
 
-            ICommand command = default;
+           
 
-            if (commandName == "HelloCommand")
+            //if (commandName == "HelloCommand")
+            //{
+            //   command = new HelloCommand();
+            //}
+            //else if (commandName == "ExitCommand")
+            //{
+            //    command = new ExitCommand();
+
+            //}
+            //else if (commandName == "BeepCommand")
+            //{
+            //    command = new BeepCommand();
+            //}
+
+            //Find command by name with Reflection
+            Type type = Assembly.GetCallingAssembly()
+                .GetTypes()
+                .FirstOrDefault(t => t.Name == commandName + "Command");
+
+            if (type == null)
             {
-               command = new HelloCommand();
+                throw new InvalidOperationException("Missing command");
             }
-            else if (commandName == "ExitCommand")
+
+            Type commandInterface = type.GetInterface("ICommand");
+
+            if (commandInterface == null)
             {
-                command = new ExitCommand();
-                
+                throw new InvalidOperationException("Not a command");
+
             }
+
+            // Instance
+
+            var command = Activator.CreateInstance(type) as ICommand;
 
             string result = command.Execute(value);
 
-            return null;
+            return result;
 
         }
     }
